@@ -1,0 +1,24 @@
+PLANTILLA DE PORTFOLIO — FLUJO LOCAL LLIUREX
+
+Distribución inicial
+1. Compruebe docs/, src/, mkdocs.yml, requirements.txt, README.md y .github/workflows/pages.yml.
+2. Empaquete el contenido como materiales/classroom/informatica-1bach.zip.
+3. El ZIP debe contener una única carpeta raiz: informatica-1bach/.
+4. No incluya .git/, .venv/, __pycache__/, .build/, credenciales, tokens ni datos personales.
+
+Uso ordinario del alumnado
+- Ruta: ~/Documentos/Informatica-I/informatica-1bach/.
+- Abrir carpeta completa en VS Code; no un archivo suelto.
+- Inicializar Git localmente y usar identidad con git config --local.
+- Trabajar, probar, guardar, revisar y hacer commits locales sin Internet.
+- No usar GitHub Desktop, clone, fetch, pull o push como rutina.
+
+Sincronización excepcional
+- Solo uno por uno y con autorización docente.
+- Reutilice pdf/alumnado/sincronizar_repositorio_con_github.pdf. Si la
+  identidad noreply exacta no está preparada, no se realiza el primer commit
+  definitivo; nunca se sustituye por el correo personal del alumno.
+- El flujo LliureX validado usa gh auth login --web --git-protocol https y termina con gh auth logout.
+- Tras el primer push, configure Settings > Pages > GitHub Actions y compruebe Pages.
+
+No instale ni distribuya credenciales. Informatica-I e Informatica-II deben estar en carpetas hermanas distintas.

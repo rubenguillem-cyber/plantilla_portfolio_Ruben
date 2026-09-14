@@ -1,0 +1,11 @@
+# Productos locales de MkDocs y Python: no se publican en el repositorio.
+site/
+.cache/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+credentials.json
+token.json
+*.token
+.env

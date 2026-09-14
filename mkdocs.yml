@@ -1,0 +1,14 @@
+site_name: Portfolio de Informática I
+site_description: Evidencias y productos de aprendizaje de Informática I
+theme:
+  name: material
+  language: es
+
+nav:
+  - Inicio: index.md
+  - Servicio técnico: hardware/index.md
+  - Python: python/index.md
+  - Imagen digital: imagen/index.md
+  - Imágenes de satélite: satelite/index.md
+  - Proyecto de incendio: incendio/index.md
+  - Cierre: cierre/index.md
