@@ -23,6 +23,9 @@ plt.imshow(verde, cmap="Greens")
 plt.figure(4)
 plt.imshow(imagen)
 
+plt.figure(5)
+rgb = np.dstack((rojo,verde, azul))
+plt.imshow(rgb)
 
 
 plt.show()
